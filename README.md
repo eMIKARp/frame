@@ -3,8 +3,8 @@ a piece of code that display a simple frame on your screen
 
 package frame;
 
-import javax.swing.*;      // importing a swin package
-import java.awt.*;         // importing a awt pacgkage     
+import javax.swing.*;
+import java.awt.*;
 
 public class Main extends JFrame
 {
@@ -29,7 +29,7 @@ public class Main extends JFrame
     
     public static void main(String[] args) 
     {
-        new Main().setVisible(true);                   // creation of a new frame object  
+        new Main().setVisible(true);                  
         
     }
     
