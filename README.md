@@ -1,2 +1,37 @@
 # frame
 a piece of code that display a simple frame on your screen 
+
+package frame;
+
+import javax.swing.*;      // importing a swin package
+import java.awt.*;         // importing a awt pacgkage     
+
+public class Main extends JFrame
+{
+    public Main()         // defining a constructor based on which a frame object will be created                        
+    {
+        
+        int scrHeight = Toolkit.getDefaultToolkit().getScreenSize().height; // obtaining screen size 
+        int scrWidth = Toolkit.getDefaultToolkit().getScreenSize().width;
+        
+        this.setSize(scrWidth / 2, scrHeight / 2);   // defining size of a frame we want to create
+        
+        int fraWidth = this.getSize().width;
+        int fraHeight = this.getSize().height;
+        
+        this.setLocation((scrWidth - fraWidth)/2, (scrHeight - fraHeight)/2);   // setting location of a frame to center 
+                                                                                // regardess of the screen and frame size 
+        this.setTitle("It's Alive !!!");
+        this.setIconImage(Toolkit.getDefaultToolkit().getImage("anonymous.png"));
+        this.setResizable(false);
+        this.setDefaultCloseOperation(3);
+    }
+    
+    public static void main(String[] args) 
+    {
+        new Main().setVisible(true);                   // creation of a new frame object  
+        
+    }
+    
+}
+
