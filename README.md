@@ -6,10 +6,9 @@ package frame;
 import javax.swing.*;
 import java.awt.*;
 
-public class Main extends JFrame
-{
-    public Main()                                
-    {
+public class Main extends JFrame {
+
+    public Main() {
         
         int scrHeight = Toolkit.getDefaultToolkit().getScreenSize().height; 
         int scrWidth = Toolkit.getDefaultToolkit().getScreenSize().width;
@@ -27,10 +26,8 @@ public class Main extends JFrame
         this.setDefaultCloseOperation(3);
     }
     
-    public static void main(String[] args) 
-    {
-        new Main().setVisible(true);                  
-        
+    public static void main(String[] args) {
+        new Main().setVisible(true);                 
     }
     
 }
