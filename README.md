@@ -11,16 +11,16 @@ public class Main extends JFrame
     public Main()                                
     {
         
-        int scrHeight = Toolkit.getDefaultToolkit().getScreenSize().height; // obtaining screen size 
+        int scrHeight = Toolkit.getDefaultToolkit().getScreenSize().height; 
         int scrWidth = Toolkit.getDefaultToolkit().getScreenSize().width;
         
-        this.setSize(scrWidth / 2, scrHeight / 2);   // defining size of a frame we want to create
+        this.setSize(scrWidth / 2, scrHeight / 2);  
         
         int fraWidth = this.getSize().width;
         int fraHeight = this.getSize().height;
         
-        this.setLocation((scrWidth - fraWidth)/2, (scrHeight - fraHeight)/2);   // setting location of a frame to center 
-                                                                                // regardess of the screen and frame size 
+        this.setLocation((scrWidth - fraWidth)/2, (scrHeight - fraHeight)/2);   
+                                                                                
         this.setTitle("It's Alive !!!");
         this.setIconImage(Toolkit.getDefaultToolkit().getImage("anonymous.png"));
         this.setResizable(false);
