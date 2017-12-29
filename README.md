@@ -1,5 +1,5 @@
 # frame
-a piece of code that display a simple frame on your screen 
+a piece of code that displays a simple frame on your screen 
 
 package frame;
 
