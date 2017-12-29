@@ -1,12 +1,12 @@
 # frame
 a piece of code that displays a simple frame on your screen 
 
-package frame;
+    package frame;
 
-import javax.swing.*;
-import java.awt.*;
+    import javax.swing.*;
+    import java.awt.*;
 
-public class Main extends JFrame {
+    public class Main extends JFrame {
 
     public Main() {
         
@@ -30,5 +30,5 @@ public class Main extends JFrame {
         new Main().setVisible(true);                 
     }
     
-}
+    }
 
