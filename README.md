@@ -8,7 +8,7 @@ import java.awt.*;         // importing a awt pacgkage
 
 public class Main extends JFrame
 {
-    public Main()         // defining a constructor based on which a frame object will be created                        
+    public Main()                                
     {
         
         int scrHeight = Toolkit.getDefaultToolkit().getScreenSize().height; // obtaining screen size 
